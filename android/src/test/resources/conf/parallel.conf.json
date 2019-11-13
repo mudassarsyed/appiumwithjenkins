@@ -1,0 +1,24 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "mudassarsyed2",
+  "key": "8ZezGR6GyZjP2ZqrXphh",
+
+  "capabilities": {
+    "build": "appium_test",
+    "name": "parallel_android_test",
+    "browserstack.debug": true,
+    "app": "bs://dc1187fda3b5c4fe0bff0b51a43d5e2f5072b969"
+  },
+
+  "environments": {
+    "pixel": {
+      "device": "Google Pixel"
+    },
+    "galaxy_s7": {
+      "device": "Samsung Galaxy S7"
+    },
+    "nexus_9": {
+      "device": "Google Nexus 9"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "server": "hub-cloud.browserstack.com",
+
+  "capabilities": {
+    "build": "appium_test",
+    "name": "single_ios_test",
+    "browserstack.debug": true,
+    "app": "bs://d02894fd956c4eddadb5ed3229675e14a4bbe0c4"
+  },
+
+  "environments": {
+    "iPhone_7": {
+      "device": "iPhone 7"
+    }
+  }
+}
